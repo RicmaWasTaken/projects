@@ -1,5 +1,5 @@
 <?php
-    $apiKey = "605fc744503982b21d3bb1916b9403a8";
+    $apiKey = [your_key_here];
     $input = $_POST['ville'];
     if($input == ""){
         echo "<script>console.log('input is empty')</script>";
