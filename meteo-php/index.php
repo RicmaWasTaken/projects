@@ -16,7 +16,7 @@
         // Check for cURL errors
         if (curl_errno($ch)) {
             echo '<script>';
-            echo 'alert(\'ça marche pas le curl\')';
+            echo 'alert(\'cURL not working\')';
             echo '</script>';
         } else {
             // Close cURL session
@@ -26,7 +26,7 @@
             // Check if JSON decoding was successful
             if ($jsonData === null) {
                 echo '<script>';
-                echo 'alert(\'curl initié mais pas de réponse\')';
+                echo 'alert(\'cURL initiated but no answer\')';
                 echo '</script>';
                 // Handle the error as needed
             } else {
@@ -39,11 +39,11 @@
     }
 ?>
 <!DOCTYPE html>
-    <html lang="fr">
+    <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Météo PHP</title>
+        <title>Weather App - PHP</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
