@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Perso - V2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-screen">
+        <div id="indicators">
+            <div id="lifebar-player-1">
+                <div class="life-cell"></div>
+                <div class="life-cell"></div>
+                <div class="life-cell"></div>
+                <div class="life-cell"></div>
+                <div class="life-cell"></div>
+                <div class="life-cell"></div>
+                <div class="life-cell"></div>
+                <div class="life-cell"></div>
+                <div class="life-cell"></div>
+                <div class="life-cell"></div>
+            </div>
+            <p id="clock">90</p>
+            <div id="lifebar-player-2">
+                <div class="life-cell"></div>
+                <div class="life-cell"></div>
+                <div class="life-cell"></div>
+                <div class="life-cell"></div>
+                <div class="life-cell"></div>
+                <div class="life-cell"></div>
+                <div class="life-cell"></div>
+                <div class="life-cell"></div>
+                <div class="life-cell"></div>
+                <div class="life-cell"></div>
+            </div>
+        </div>
+        <img id="player1" src="assets/player1.png" alt="player-left">
+        <img id="player2" src="assets/player1.png" alt="player-right">
+        <!--<div class="projectile ltr"></div>-->
+        <div id="mobile-container">
+            <div id="mobile-jump"></div>
+            <div id="mobile-atk"></div>
+        </div>
+        <div id="game-over">
+            <p>GAME OVER</p>
+            <p id="ending-message">No ending message</p>
+            <button id="try-again">Try Again</button>
+        </div>
+    </div>
+    <script src="tools.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
